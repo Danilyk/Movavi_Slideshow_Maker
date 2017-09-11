@@ -1,0 +1,15 @@
+$XS: 320px
+$SM: 768px
+$MD: 1140px
+
+@mixin respond-to($media)
+  @if $media == XS 
+    @media only screen and (max-width: $XS)
+      @content 
+  @else if $media == SM 
+    @media only screen and (max-width: $SM)
+      @content 
+  @else if $media == MD 
+    @media only screen and (max-width: $MD)
+      @content
+  

@@ -9,7 +9,7 @@ $(document).ready(function(){
         $(this).addClass('b-btnMode--active');
         List.toggleClass('HowUseProgramm--notActive');
     });
-
+    
 });
 
 
