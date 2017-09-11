@@ -1,0 +1,152 @@
+@import "fonts.sass"
+*
+	margin: 0
+	padding: 0
+body
+	font-family: 'Open Sans'
+h1
+	margin-top: 65px
+	font-size: 40px
+h2
+	font-family: 'Open Sans Bold'
+	font-size: 40px
+	margin: 10px 0 15px
+.captionBlock
+	font-family: 'Open Sans Bold'
+	font-size: 40px
+	text-align: center
+	margin-top: 80px
+	margin-bottom: 30px
+.b-topLine
+	height: 75px;
+	background: #000000;
+.b-header
+	background: url("../img/header/fonHeader.jpg") center top no-repeat;
+	ul
+		padding: 0 15px
+		margin-bottom: 45px
+	.headTitleLink
+		font-size: 22px
+	img
+		margin: 120px 0 90px
+.slide
+	width: 100%
+.b-btn
+	margin: 50px 0 0
+	&_pos_center
+		text-align: center
+	&__OS
+		display: inline-block
+		width: 252px
+		line-height: 72px
+		padding-left: 56px
+		margin-right: 30px
+		font-size: 20px
+		color: #fff
+		text-align: left
+		background-color: #3581d5
+		background-position: 23px center
+		background-repeat: no-repeat
+		border-radius: 6px
+		&:first-child
+			background-image: url("../img/btn/btnWin.png")
+		&:last-child
+			background-image: url("../img/btn/btnMac.png")
+.b-btnMode
+	border-radius: 6px
+	text-align: center
+	&__block
+		display: inline-block
+		width: 50%
+		border: 3px solid #1962b2
+		line-height: 62px
+	&__easyMode
+		border-radius: 6px 0 0 6px
+		border-right: none
+		color: #3581d5
+	&__fullMode
+		border-radius: 0 6px 6px 0
+		border-left: none
+		color: #3581d5
+	&--active
+		background-color: #3581d5
+		border: 3px solid #3581d5
+		color: #fff
+		&::after
+			content: ''
+			position: absolute
+			width: 0
+			height: 0
+			border: 25px solid transparent
+			border-bottom-color: #eeeeee
+			top: 85%
+.b-instruction
+	margin-bottom: 40px
+	&__title
+		font-family: 'Open Sans Bold'
+		font-size: 34px
+		color: #000
+		margin: 40px 0 25px
+	&__number
+		color: #f68263
+	&__text
+		font-size: 20px
+	&__img
+
+.HowUseProgramm
+	background-color: #eeeeee
+	margin-top: 35px
+	position: relative
+	&--notActive
+		display: none
+
+.b-linkFullMode
+	position: relative
+	text-align: center
+	margin: 40px 0
+	a
+		text-decoration: none
+	span
+		vertical-align: 50%
+		padding-left: 10px
+
+.advantages
+	background: url("../img/bottomPresent/fon.jpg") center top no-repeat;
+	img
+		margin: 110px 0 85px
+	.captionBlock
+		text-align: left
+	ul
+		li
+			list-style-type: none
+			background: url(../img/bottomPresent/iconSet.png) no-repeat 0 -118px
+			padding-left: 55px
+			line-height: 45px
+			&:nth-child(2)
+				background-position: 0 -75px
+			&:nth-child(3)
+				background-position: 0 -33px
+			&:nth-child(4)
+				background-position: 0 7px
+.guides
+	background-color: #eeeeee
+	.guideItem
+		line-height: 72px
+		border: 2px dashed #bdbdbd
+		border-radius: 6px
+		padding-left: 20px
+		margin-bottom: 30px
+footer
+	margin: 70px 0 90px
+.b-faqItem
+	background-color: #e3f0ff
+	border-radius: 6px
+	img
+		margin: 16px 0 16px 47px
+		display: inline-block
+	span
+		display: inline-block
+		vertical-align: 250%
+		padding-left: 32px
+		font-size: 24px
+		line-height: 26px
